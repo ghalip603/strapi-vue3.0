@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_information",
+  "info": {
+    "name": "information",
+    "icon": "info-circle"
+  },
+  "options": {},
+  "attributes": {
+    "BY": {
+      "type": "string"
+    }
+  }
+}

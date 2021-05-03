@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_contents",
+  "info": {
+    "name": "blogContent"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "page.gallery",
+        "page.text-block"
+      ]
+    }
+  }
+}
